@@ -1,0 +1,165 @@
+body {
+    background: #e0e0e0;
+    font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+main, section {
+
+    width: 100%;
+    padding-top: 10px;
+    background-color: white;   
+}
+main {
+    padding-bottom: 30px;
+    min-height: 300px;
+}
+table {
+	margin: auto;
+}
+button {
+	padding: 10px;
+	margin: 10px;
+}
+.TTTBoard {
+	position:  relative;
+}
+.TTTBoard td {
+	
+	height: 100px;
+    width:  100px;
+    font-size: 2em;
+	border: 1px solid black;   
+}
+#displayWinner {
+	text-shadow: 1px 1px 1px grey;
+	color: Orange;
+}
+#endGameDialog {
+	display: none;
+	margin: 20px auto;
+    position: absolute; 
+    z-index: 1; 
+	width: 400px;
+	height: 200px;
+	background-color: white;
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+	bottom: 0;
+	right: 0;
+    top: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fullScreenTTT {
+
+}
+
+table td {
+	height: 60px;
+    width: 60px;
+    font-size: 1em;
+  
+}
+table th {
+	height: 60px;
+    width: 60px;
+    font-size: 2em;
+	background-color: SkyBlue;	
+}
+
+.BingoBoard tr td{
+	border: 1px solid black;
+}
+
+
+.tile {
+	border: 1px solid Gray;
+	background-color: lightGray;
+	margin: 10px;
+	width: 80px;
+	height: 80px;
+    background-size: 80px 80px;
+}
+#Concentration section{
+	width: 600px;
+	margin: auto;
+	display: flex;
+}
+
+img {
+	height: 80px;
+    width: 80px;	
+}
+#CasinoCraps {
+	display: flex;
+	width: 60%;
+	margin: auto;
+}
+
+.box {
+	padding-top: 10px;
+	margin: auto;
+	border: 1px solid black;
+	width: 23%;
+	height: 300px;
+}
+.diceBox {
+	padding: 15px;
+	font-size: 3em;
+	margin: 20px auto;
+	border: 1px solid white;
+	background-color: Tomato;
+	box-shadow: 5px 5px 5px grey;
+	width: 90px; 
+	height: 90px;
+}
+#column2  span{
+	font-size: 5em;
+	color: red;	
+}
+#column3  span{
+	font-size: 5em;
+	color: red;	
+}
+
+.box button {
+	width: 80%;
+}
+header h1, h2 {
+    color: #6f6f6f;  
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    margin: 20px 0 0;
+    text-align: center;
+    text-shadow: 0 0 0 rgba(0,0,0,.4);
+}
+
+footer {
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    clear: both;
+}
+ 
+ 
+/* navigation */
+nav {
+    margin: 20px auto;
+    width: 450px;
+    text-align: center;
+}
+nav a {
+    background-color: #a4a4a4;
+    color: #fff;
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    text-decoration: none;
+}
+nav a.active, nav a:hover {
+    background: #c2c2c2;
+    color: #818181;
+}

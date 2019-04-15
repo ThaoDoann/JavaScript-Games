@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Casino Craps game</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="CSS/style.css">
+<script src="JS/script.js">  </script>
+
+<!--
+File name: CasinoCraps.html
+Author: Thao Doan
+Date created: June 2018
+Date modified: July 1, 2018
+Version: 3.0
+Description:
+Program to play the casino game of Craps. 
+At the beginning of the game, the player rolls a pair of dice and computes the total. 
+If the total is 2, 3, or 12 (called "craps"), the player loses. If the total is 7 or 11 (called a "natural"), the player wins.
+
+If the total is any other number, that number becomes the "point". 
+From here, the player keeps rolling the dice until (a) the point comes up again, in which case the player wins, 
+or (b) a 7 appears, in which case the player loses.
+ The numbers 2,3,11, and 12 no longer have special significance after the first rolls.
+-->
+
+</head>
+<body>
+<header>
+	<h1>Assignment 4</h1>
+	<h2>Casino Craps</h2>
+</header>
+<nav>   
+	<a href="index.html">Home</a>
+    <a  class="active" href="CasinoCraps.html">Casino Craps</a>
+    <a href="TicTacToe.html">Tic sTac Toe</a>
+    <a href="Bingo.html">Bingo</a>
+    <a href="Concentration.html">Concentration</a>
+</nav>
+	
+<main >
+	<section id="CasinoCraps">
+	</section>
+</main>
+<footer>
+       <address>Web Programming &copy; Sheridan College</address>         
+</footer>
+
+
+<script> document.addEventListener('DOMContentLoaded', playCasinoCraps);</script>
+
+</body>
+</html>
