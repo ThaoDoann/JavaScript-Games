@@ -6,7 +6,7 @@
 ![Screenshot](Bingo.PNG)
 3. Memory game
 ![Screenshot](Concentration.PNG)
-![Screenshot](Concentration 2.PNG)
+![Screenshot](Concentration2.PNG)
 4. Casino Craps
 ![Screenshot](Casino-Craps.PNG)
 
